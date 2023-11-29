@@ -21,9 +21,7 @@ global-client-fingerprint: chrome   #全局 TLS 指纹，优先低于 proxy 内�
                                     #可选： "chrome","firefox","safari","ios","random","none" options.
 
 geox-url:             #自定义 geodata url
-  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
-  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
-  mmdb: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/Country.mmdb"
+  mmdb: "https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb"
 
 profile:
   store-selected: true # 存储 select 选择记录
